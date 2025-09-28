@@ -5,26 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Vypni.to</title>
   <style>
-    html,body {
-      margin:0;
-      padding:0;
-      height:100%;
-      background:#fff;
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      background: #fff;
     }
     body {
-      display:flex;
-      justify-content:center;
-      align-items:center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
-    object {
-      width:100%;
-      height:100vh;
-      border:none;
+    a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      text-decoration: none;
+    }
+    img {
+      display: block;
+      width: 1920px;
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
     }
   </style>
 </head>
 <body>
-  <!-- Odkaz na externí SVG soubor -->
-  <object type="image/svg+xml" data="vypnito_stranka.svg" style="width:1920px></object>
+  <a href="https://moje.flixy.cz/vypnito/p/pokladna" target="_blank" rel="noopener">
+    <img src="vypnito_stranka.svg" alt="vypnito_stranka">
+  </a>
 </body>
 </html>
